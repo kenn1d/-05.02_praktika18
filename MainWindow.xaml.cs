@@ -26,6 +26,7 @@ namespace praktika18
         {
             InitializeComponent();
             init = this;
+            OpenPage(new Pages.Main());
         }
 
         public void OpenPage(Page Page)

@@ -20,7 +20,7 @@ namespace praktika18.Pages
     /// </summary>
     public partial class Ticket : Page
     {
-        public Ticket()
+        public Ticket(string From, string To)
         {
             InitializeComponent();
         }

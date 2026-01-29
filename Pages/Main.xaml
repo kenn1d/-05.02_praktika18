@@ -15,7 +15,9 @@
         <TextBox x:Name="from" Width="330" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,138,0,0" Foreground="Black"/>
         <Label Content="Куда:" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" Foreground="White" Margin="0,168,0,0" Width="330"/>
         <TextBox x:Name="to" Width="330" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,204,0,0" Foreground="Black"/>
-        <Button Click="Search" VerticalAlignment="Top" HorizontalAlignment="Left" Width="100" Height="24" Content="Найти" Margin="415,234,0,0"
+        <Label Content="Дата вылета:" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" Foreground="White" Margin="0,234,0,0" Width="330"/>
+        <TextBox x:Name="timeStart" Width="330" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,270,0,0" Foreground="Black"/>
+        <Button Click="Search" VerticalAlignment="Top" HorizontalAlignment="Right" Width="100" Height="24" Content="Найти" Margin="0,300,230,0"
                 Background="#FF4000" Foreground="White" BorderBrush="#FFFF4000"/>
     </Grid>
 </Page>

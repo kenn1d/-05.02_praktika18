@@ -18,7 +18,7 @@ namespace praktika18.Classes
             List<TicketContext> allTickets = new List<TicketContext>();
 
             MySqlConnection connection = WorkingBD.Connection.OpenConnecuion();
-            MySqlDataReader ticketQuery = WorkingBD.Connection.Query("SELECT * FROM `Airlines`.`Tickets`;", connection);
+            MySqlDataReader ticketQuery = WorkingBD.Connection.Query("SELECT * FROM `airlines`.`tickets`;", connection);
             while (ticketQuery.Read())
             {
                 allTickets.Add(new TicketContext(

@@ -9,9 +9,12 @@
       Title="Ticket">
 
     <Grid Background="White">
+        
         <ScrollViewer Margin="10">
             <StackPanel x:Name="parent">
-                
+                <Button Click="Create" Content="Создать"
+                    Background="#FF4000" Height="25" Width="100" Foreground="White"
+                    HorizontalAlignment="Left" BorderBrush="#FFFF4000"/>
             </StackPanel>
         </ScrollViewer>
     </Grid>

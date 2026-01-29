@@ -26,5 +26,10 @@ namespace praktika18.Pages
                 parent.Children.Add(new Element.Item(ticket));
             }
         }
+
+        private void Create(object sender, System.Windows.RoutedEventArgs e)
+        {
+            MainWindow.init.OpenPage(new Pages.Create());
+        }
     }
 }
